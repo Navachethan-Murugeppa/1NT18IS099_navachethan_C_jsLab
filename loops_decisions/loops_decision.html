@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+        </style>
+</head>
+<body>
+    
+    <table  style="width:80%" id="customers">
+        <tr>
+            <td><h1>Loops and decisions</h1></td>
+            <td>run to check</td>
+            <td>solution</td>
+        </tr>
+    <tr>
+        <th><p><b>1.Factorial of a number using for loop</b></p></th>
+    <th><button onclick="factorial()">factorial</button></th>
+    <th></th>
+    </tr>
+    <tr>
+        <th>
+    <p><b>Fibonacci numbers</b></p></th>
+   <th> <button onclick="fibonacci()">fibonacci</button></th>
+    <th><p>fibonacci series</p>
+    <p id="ans"></p> </th>
+    </tr>
+    <tr>
+    <th><p><b>2. to check number >0</b></p> </th>
+   <th> <button onclick="positive()">num > 0</button> </th>
+   <th></th>
+    </tr>
+    <tr>
+    <th><p><b>3. to check even odd</b></p></th>
+    <th><button onclick="eveodd()">even or odd</button></th>
+    <th></th>
+    </tr>
+    <tr>
+    <th><p><b>4. to check number is +/-</b></p></th>
+    <th><button onclick="checksign()">check sign</button></th>
+    <th></th>
+    </tr>
+    <tr>
+    <th><p><b>5. to check grade and comment</b></p></th>
+    <th><button onclick="switchgrade()">check grade</button></th>
+    <th></th>
+    </tr>
+    <tr>
+    <th><p><b>6. factorial using while loop</b></p></th>
+    <th><button onclick="fact()">fact</button></th>
+    <th></th>
+    </tr>
+    <tr>
+    <th><p><b>7. usage of for in loop</b></p></th>
+    <th><button onclick="forinloop()">forinloop</button></th>
+    <th><p id="ans2"></p></th>
+    </tr>
+    <tr>
+    <th><p><b>8. usage of for of loop</b></p></th>
+    <th><button onclick="forofloop()">forofloop</button></th>
+    <th></th>
+    </tr>
+    <tr>
+    <th><p><b>9. usage of do-while loop</b></p></th>
+    <th><button onclick="dowhil()">dowhile</button></th>
+    <th></th>
+    </tr>
+    <tr>
+        <th><p><b>10. usage of break</b></p></th>
+        <th><button onclick="brk()">break</button></th>
+        <th></th>
+        </tr>
+        <tr>
+            <th><p><b>11. usage of continue</b></p></th>
+            <th><button onclick="cnt()">continue</button></th>
+            <th></th>
+            </tr>
+            <tr>
+                <th><p><b>12. usage of continue with label</b></p></th>
+                <th><button onclick="test()">continue</button></th>
+                <th><p id="an1"></p><br><p id="an2"></p></th>
+                </tr>
+                <tr>
+                    <th><p><b>13. usage of break with label</b></p></th>
+                    <th><button onclick="testlabel()">break</button></th>
+                    <th><p id="an3"></p><br><p id="an4"></p></th>
+                    </tr>
+            
+    </table>
+    <script src="loops_decision.js"></script>
+</body>
+</html>
