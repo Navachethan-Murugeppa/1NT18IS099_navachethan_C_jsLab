@@ -34,7 +34,7 @@ console.log(result);
 function errorValue(result) {
 console.log(result);
 }
-); */
+); */ 
 // returns a promise
 /*let countValue = new Promise(function (resolve, reject) {
     // could be resolved or rejected

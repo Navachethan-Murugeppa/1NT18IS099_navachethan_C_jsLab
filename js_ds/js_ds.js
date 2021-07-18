@@ -43,7 +43,7 @@ stack.add(2);
 stack.add(4);
 stack.add(8);
 console.log(stack.items);
-
+console.log(stack.peek());
 stack.remove();
 console.log(stack.items);
 
@@ -55,3 +55,7 @@ console.log(stack.size());
 
 stack.clear();
 console.log(stack.items);
+console.log(stack.isEmpty());
+
+//Queue
+
