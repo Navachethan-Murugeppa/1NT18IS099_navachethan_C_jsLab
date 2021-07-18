@@ -107,7 +107,7 @@ function myfun(){
     }
     let constructorObject = {
         speak: function(){
-            return "Lion is the King"
+            return "Student at NMIT"
         }
     }
     let n="";
